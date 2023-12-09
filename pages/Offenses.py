@@ -52,14 +52,14 @@ for i in Offense.containers:
 st.text(f"Top teams by {Offense_Select} for the {Year_Select} season.")
 st.pyplot(Offense.get_figure())
 
-Logos_Teams = alt.Chart(df, title = '2022 Big Ten Best Offenses').mark_image(
-    width=30,
-    height=30
-).encode(
-    alt.X('rushingYards:Q').scale(zero=False),
-    alt.Y('netPassingYards').scale(zero=False),
-    url='Logo',
-    tooltip=['Season','Team','rushingYards','netPassingYards']
-).interactive()
+# Logos_Teams = alt.Chart(df, title = '2022 Big Ten Best Offenses').mark_image(
+#     width=30,
+#     height=30
+# ).encode(
+#     alt.X('rushingYards:Q').scale(zero=False),
+#     alt.Y('netPassingYards').scale(zero=False),
+#     url='Logo',
+#     tooltip=['Season','Team','rushingYards','netPassingYards']
+# ).interactive()
 
 st.altair_chart(Logos_Teams, use_container_width= True)
