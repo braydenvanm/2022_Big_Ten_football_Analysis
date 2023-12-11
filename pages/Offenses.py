@@ -13,7 +13,7 @@ df['Logo'] = "Logos/" + df['Team'] + '.png'
 team_logo_images = [".Logos/Illinois.png", ".Logos/Indiana.png", ".Logos/Iowa.png"]
 
 st.title('Big Ten Football Stats and Analysis')
-st.text('Vizualizations of common statistics for Big Ten Football Teams in 2022')
+st.text('Vizualizations of common statistics for Big Ten Football Teams')
 
 st.header('Top Offensive Teams by Season')
 Year_Select = st.selectbox('Season',[2019,2020,2021,2022,2023])
@@ -61,5 +61,3 @@ st.pyplot(Offense.get_figure())
 #     url='Logo',
 #     tooltip=['Season','Team','rushingYards','netPassingYards']
 # ).interactive()
-
-st.altair_chart(Logos_Teams, use_container_width= True)
