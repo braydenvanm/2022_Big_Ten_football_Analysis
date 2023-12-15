@@ -8,9 +8,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('Data/2022_data.csv')
 
 df = df
-df['Logo'] = "Logos/" + df['Team'] + '.png'
-
-team_logo_images = [".Logos/Illinois.png", ".Logos/Indiana.png", ".Logos/Iowa.png"]
 
 st.title('Big Ten Football Stats and Analysis')
 st.text('Vizualizations of common statistics for Big Ten Football Teams')
