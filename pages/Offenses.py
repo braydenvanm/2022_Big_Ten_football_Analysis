@@ -5,7 +5,7 @@ import altair as alt
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('2022_data.csv')
+df = pd.read_csv('Data/2022_data.csv')
 
 df = df
 df['Logo'] = "Logos/" + df['Team'] + '.png'
