@@ -1,1 +1,1 @@
-workspace.ipynb
+git rm -r --cached ./workspace.ipynb
