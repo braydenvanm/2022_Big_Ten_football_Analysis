@@ -3,7 +3,7 @@ Overview of Big Ten Football Statistics and Team Performances
 
 # Streamlit App
 Link to the Streamlit App
-https://bigtenfootballanalysis.streamlit.app/
+https://big-ten-football-analysis.streamlit.app/
 
 # Introduction
 This app is designed to allow for easy comparison of Big Ten Football teams over the recent seasons. The overall goal is to allow users to identify

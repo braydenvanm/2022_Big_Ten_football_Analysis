@@ -27,7 +27,7 @@ team_colors = {
 }
 
 st.title('Big Ten Football Stats and Analysis')
-st.text('Vizualizations of common statistics for Big Ten Football Teams in 2022')
+st.text('Vizualizations of common statistics for Big Ten Football Teams')
 
 st.header('Top Defensive Teams by Season')
 Year_Select = st.selectbox('Season',[2019,2020,2021,2022,2023])
